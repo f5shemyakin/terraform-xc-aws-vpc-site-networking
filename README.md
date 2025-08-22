@@ -2,6 +2,8 @@
 
 This Terraform module provisions a VPC network in AWS that is required for XC Cloud AWS VPC Site. It creates a VPC, subnets, route tables, and security groups with whitelisted IP ranges.
 
+> **Note**: This module is developed and maintained by the [F5 DevCentral](https://github.com/f5devcentral) community. You can use this module as an example for your own development projects.
+
 ## Features
 
 - **Secure by default**: All subnets are private by default with configurable public IP assignment
